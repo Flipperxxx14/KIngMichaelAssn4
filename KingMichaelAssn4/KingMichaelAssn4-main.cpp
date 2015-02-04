@@ -1,11 +1,18 @@
-// KingMichaelAssn4.cpp : Defines the entry point for the console application.
+//*****************************************************************************
+// FILE NAME: KingMichael-assn3common.h
+// DESCRIPTION: This file contains the ADT structure definitions and constant
+//              definitions
 //
+//****************************************************************************
 
-#include "stdafx.h"
+#include <string>
 
+using namespace std;
 
-int _tmain(int argc, _TCHAR* argv[])
-{
-	return 0;
-}
+const int ARRAY_SIZE = 100000;          //Max size of array
+const int MAX_ARRAY_NUM = 30000;        //Max value for static array input
+
+// type definition of a pointer to a function with 2 int input parameters
+// and an int return value
+typedef int (*funcPtrType)(int list[], int length);
 
